@@ -116,7 +116,7 @@ void loop() {
           unbiasedBit = 1;
         } // XOR Complete
         
-        Serial.print(unbiasedBit);	
+        Serial.write(unbiasedBit);	
         
         idx = 0; // Reset idx
       }
